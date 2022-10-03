@@ -52,7 +52,7 @@ const NavBar: React.FC = () => {
           <div className="sm:hidden">
             <button onClick={handleDisplayMenu} className="hover:opacity-80">
               {displayMenu ? (
-                <img alt="logo" src={"/images/close-icon.svg"} />
+                <img alt="logo" src={"/images/close-icon.svg"} className="h-8" />
               ) : (
                 <img alt="logo" src={"/images/menu-icon.svg"} className="h-8" />
               )}
